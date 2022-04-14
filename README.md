@@ -4,7 +4,7 @@ Flutopia is a set of utility classes for [Utopia](https://utopia.fyi/).
 
 Fluid + Utopia = Flutopia.
 
-Although these can be used with any site (not just WordPress), there are some [Oxygen Builder](https://oxygenbuilder.com/) specific classes in the CSS.
+Although these can be used with any site (not just WordPress), there are some [Zion Builder](https://zionbuilder.io/) specific classes in the CSS.
 
 The benefit is automatic fluid responsiveness without adding any further CSS or multiple classes for different breakpoints.
 
