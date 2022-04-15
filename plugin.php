@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name:	Flutopia
+Plugin Name:	Flutopia for Zion
 Plugin URI:		https://github.com/srikat/flutopia
 Description:	Fluid type scale and space via Utopia.
-Version:		1.0.0
+Version:		1.1.1
 Author:			Sridhar Katakam
 Author URI:		https://wpdevdesign.com/
 License:		GPL-2.0+
