@@ -138,7 +138,7 @@ You can use the plugin as is or if you want, customize by modifying the plugin's
 
 The default font-size of body text was chosen as 18px. This is the value on desktop widths going down to 16px on mobiles.
 
-| Tag  | 320px   | 1140px  |
+| Tag  | 320px   | 1280px  |
 | ---- | ------- | ------- |
 | H1   | 47.78px | 68.66px |
 | H2   | 39.81px | 54.93px |
@@ -150,14 +150,14 @@ The default font-size of body text was chosen as 18px. This is the value on desk
 
 If you wish to customize these
 
-1. Visit the [fluid type scale calculator](https://utopia.fyi/type/calculator/?c=320,16,1.2,1140,18,1.25,6,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l)
+1. Visit the [fluid type scale calculator](https://utopia.fyi/type/calculator?c=320,16,1.2,1280,18,1.333,5,2,&s=0.75%7C0.5%7C0.25,1.5%7C2%7C3%7C4%7C6,s-l)
 2. Change any/all of width, font-size and type scale at min viewport and max viewport
 3. Ensure that there are 6 scale steps. If not click `+` to add one at the top
 4. Copy the generated CSS and replace the corresponding CSS in the plugin's `assets/css/utopia.css` under the `Fluid type scale calculator` heading.
 
 ### Customizing space values
 
-1. Visit the [fluid space calculator](https://utopia.fyi/space/calculator/?c=320,16,1.2,1140,18,1.25,5,2,&s=0.75%7C0.5%7C0.25,1.5%7C2%7C3%7C4%7C6,s-l)
+1. Visit the [fluid space calculator](https://utopia.fyi/space/calculator?c=320,16,1.2,1280,18,1.333,5,2,&s=0.75%7C0.5%7C0.25,1.5%7C2%7C3%7C4%7C6,s-l)
 2. Change any/all of width, font-size and type scale at min viewport and max viewport so it matches with your type scale numbers.
 3. Copy the generated CSS except for [this](https://d.pr/i/ob00Lv) part and replace the corresponding CSS in the plugin's `assets/css/utopia.css` under the `Fluid space calculator` heading.
 
@@ -173,6 +173,6 @@ Yes. Use Flutopia on a site or two, take note of the classes you are actually us
 
 ## Changelog
 
-### 1.0.0 - 10 Mar 2022
+### 1.1.1 - 15 April 2022
 
 - Initial Release
