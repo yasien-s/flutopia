@@ -17,7 +17,7 @@
 
 /* Fluid type scale calculator
 ---------------------------------------------------------------------------- */
-/* https://utopia.fyi/type/calculator/?c=320,16,1.2,1140,18,1.25,6,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
+/* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1280,18,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
 
 :root {
   --f--2-min: 11.11;
@@ -28,21 +28,21 @@
   );
 
   --f--1-min: 13.33;
-  --f--1-max: 14.4;
+  --f--1-max: 14.40;
   --step--1: calc(
     ((var(--f--1-min) / 16) * 1rem) + (var(--f--1-max) - var(--f--1-min)) *
       var(--fluid-bp)
   );
 
-  --f-0-min: 16;
-  --f-0-max: 18;
+  --f-0-min: 16.00;
+  --f-0-max: 18.00;
   --step-0: calc(
     ((var(--f-0-min) / 16) * 1rem) + (var(--f-0-max) - var(--f-0-min)) *
       var(--fluid-bp)
   );
 
-  --f-1-min: 19.2;
-  --f-1-max: 22.5;
+  --f-1-min: 19.20;
+  --f-1-max: 22.50;
   --step-1: calc(
     ((var(--f-1-min) / 16) * 1rem) + (var(--f-1-max) - var(--f-1-min)) *
       var(--fluid-bp)
@@ -75,20 +75,13 @@
     ((var(--f-5-min) / 16) * 1rem) + (var(--f-5-max) - var(--f-5-min)) *
       var(--fluid-bp)
   );
-
-  --f-6-min: 47.78;
-  --f-6-max: 68.66;
-  --step-6: calc(
-    ((var(--f-6-min) / 16) * 1rem) + (var(--f-6-max) - var(--f-6-min)) *
-      var(--fluid-bp)
-  );
 }
 
 
 
 /* Fluid space calculator
 ---------------------------------------------------------------------------- */
-/* @link https://utopia.fyi/space/calculator?c=320,16,1.2,1280,24,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
+/* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1280,18,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
 
 :root {
   --fc-3xs-min: (var(--fc-s-min) * 0.25); 
@@ -101,7 +94,7 @@
   --fc-xs-max: (var(--fc-s-max) * 0.75);
 
   --fc-s-min: (var(--f-0-min, 16)); 
-  --fc-s-max: (var(--f-0-max, 24));
+  --fc-s-max: (var(--f-0-max, 18));
 
   --fc-m-min: (var(--fc-s-min) * 1.5); 
   --fc-m-max: (var(--fc-s-max) * 1.5);
