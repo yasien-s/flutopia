@@ -24,7 +24,7 @@ The benefit is automatic fluid responsiveness without adding any further CSS or 
 
 ### Default headings and body text font-size
 
-| Tag  | 320px   | 1140px  |
+| Tag  | 320px   | 1280px  |
 | ---- | ------- | ------- |
 | H1   | 47.78px | 68.66px |
 | H2   | 39.81px | 54.93px |
@@ -36,7 +36,7 @@ The benefit is automatic fluid responsiveness without adding any further CSS or 
 
 **How to read the above**:
 
-Heading 1 text will have a font-size of 68.66px when the viewport size is 1140px or above and scale down linearly to 47.78px when the viewport width is 320px.
+Heading 1 text will have a font-size of 68.66px when the viewport size is 1280px or above and scale down linearly to 47.78px when the viewport width is 320px.
 
 These Utopia-generated numbers can be customized by setting `font-size` and type scale at min viewport and max viewport. See the [FAQ](#faq) for details.
 
