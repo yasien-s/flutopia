@@ -36,9 +36,9 @@ function flutopia_enqueue_files() {
 }
 
 // 1000000 priority so it is executed after all Zion's styles
-add_action( 'wp_head', 'flutopia_enqueue_css_after_oxygens', 1000000 );
-function flutopia_enqueue_css_after_oxygens() {
-	// if Oxygen is not active, abort.
+add_action( 'wp_head', 'flutopia_enqueue_css_after_zions', 1000000 );
+function flutopia_enqueue_css_after_zions() {
+	// if Zion is not active, abort.
 	if ( ! class_exists( 'CT_Component' ) ) {
 		return;
 	}
